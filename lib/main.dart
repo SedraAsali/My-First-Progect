@@ -4,7 +4,6 @@ import 'package:untitled2/Chat.dart';
 import 'package:untitled2/Counter.dart';
 import 'package:untitled2/First_Task_1.dart';
 import 'package:untitled2/Messengair.dart';
-import 'package:untitled2/Screen_Color.dart';
 import 'whatsApp.dart';
 
 void main()
@@ -19,7 +18,7 @@ class myApp extends StatelessWidget
   Widget build(BuildContext context) {
     return MaterialApp(
 
-      home: color(),
+      home: Counter(),
       debugShowCheckedModeBanner: false,
 
     );
